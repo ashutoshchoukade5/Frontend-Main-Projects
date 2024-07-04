@@ -1,0 +1,44 @@
+.stage1{
+width: 100%;
+}
+.main{
+    background-color:#FED7BA ;
+    }
+.stage2{
+    width: 100%;
+    
+    margin-left: 33vw;
+    margin-top: 59vh;
+
+}
+.stage img{
+margin-left: 7vw;
+}
+
+.categories {
+    margin-top: 8vh;
+    padding-bottom: 63vh;
+}
+
+.left{
+    margin-top: -75vh;
+    margin-left: 54vw;
+}
+.footer1{
+    margin-top: 75vh;
+}
+.one{
+margin-left: 50vw;
+}
+
+
+.categories {
+    margin-top: -17vh;
+    padding-bottom: 82vh;
+}
+
+.footer__container {
+    display: grid;
+    gap: 2rem;
+    margin-top: 114vh;
+}

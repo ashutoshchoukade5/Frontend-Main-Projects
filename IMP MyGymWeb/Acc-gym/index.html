@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    
+    <link rel="stylesheet" href="index.css" />
+    <title>Web Design</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+
+
+          <li class="link"><a href="index.html">Home</a></li>
+          <li class="link"><a href="About.html">About</a></li>
+          <li class="link"><a href="Classes.html">Classes</a></li>
+          <li class="link"><a href="Pricing.html">Product pricing</a></li>
+          <li class="link"><button class="btn" onclick="openForm()"  >Join Us</button></li>
+        
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Login</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+              
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">City</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Mumbai</option>
+                  <option>Pune</option>
+                  <option>Nagpur</option>
+                  <option>Amravati</option>
+                  <option>Indore</option>
+                </select>
+              </div>
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Male
+              </label>
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Female
+              </label>
+
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+
+                  
+                </div>
+
+
+                
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            
+
+        
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+
+
+     
+        <div style="display: flex;flex-direction: column;position: relative;" class="header__content">
+          <h1 style="margin-top: 10vh;margin-left: 25vw;" class="section__header">Revitalize Your Body</h1>
+          <p >
+            Unleash your potential and embark on a journey towards a stronger,
+            fitter, and more confident you. Sign up for 'Make Your Body Shape'
+            now 
+          </p>
+          <div style="margin-left: 25vw;" class="header__btn">
+            <button class="btn">Contact Today</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+
+
+    
+    
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Why You Need To Join Us?</h2>
+      <p class="section__description">
+        These testimonials serve as a testament to our commitment to helping
+        individuals achieve their fitness goals, and fostering a supportive.        
+      </p>
+    
+
+
+
+<div style="background: rgb(255, 204, 109)" class="container-button">
+
+
+  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn1 btn-danger"> <img class="i1" src="assets/icons8-weight-pound-50.png" alt="" />   Weight Loss</button>
+    <button type="button" class="btn2 btn-warning"> <img class="i1" src="assets/icons8-biceps-50.png" alt="" />    Classic Yoga</button>
+    <button type="button" class="btn3 btn-success"> <img class="i1" src="assets/icons8-cycling-50.png" alt="" /> Cycling</button>
+  </div>
+
+  <div class="btn-group1" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn1 btn-danger"> <img class="i1" src="assets/icons8-gym-50.png" alt="" /> Body Building</button>
+    <button type="button" class="btn2 btn-warning"> <img class="i1" src="assets/icons8-barbell-50.png" alt="" /> Hypertrophy</button>
+    <button type="button" class="btn3 btn-success"> <img class="i1" src="assets/icons8-running-50.png" alt="" /> Running</button>
+  </div>
+
+
+
+</div>
+
+
+<div class="container-plan">
+
+<div class="basic">
+  <h1>Basic Plan</h1>
+  <h4s tyle="color: #A49B9B;" >For 2 Month</h4>
+  <h2>800/Month</h2>
+  <h5 style="color: #A49B9B;">For Streamming</h5>
+  <button type="button" class="btn-dark">Select Plan</button>
+</div>
+
+<div class="intermidiate">
+  <h1>Intermediate Plan</h1>
+  <h4 style="color: #A49B9B;" >For 4 Month</h4>
+  <h2>1000/month</h2>
+  <h5 style="color: #A49B9B;" >For Streamming</h5>
+  <button type="button" class="btn-dark1">Select Plan</button>
+</div>
+
+ <div class="advance">
+  <h1>Advance Plan</h1>
+  <h4 style="color: #A49B9B;"  >For 10 Month</h4>
+  <h2>1500/month</h2>
+  <h5 style="color: #A49B9B;">For Streamming</h5>
+  <button type="button" class="btn-dark">Select Plan</button>
+ </div>
+
+</div>
+
+
+<div style="width: 40vw;" class="container-join">
+ 
+
+
+    <img style="width: 1200px; height: 687px; left: -2vw; top: 2319px;" src="./assets/Rectangle 145.png" />
+
+
+    <div class="big" style="width: 1200px; height: 409px; left: 0px; top: 2822px;  background: #FFA500">
+ 
+
+    
+     <div style="width: 850px; height: 312px; margin-left: 8.5vw; top: 2759px; background: white; border-radius: 4px; " class="small">
+      <div style="display: flex; justify-content:space-around;" class="image">
+    <img style="width: 112px; height: 112px; left: 301px; top: 2803px; " src="./assets/gm 1.png" />
+    <img style="width: 111px; height: 112px; left: 692px; top: 2803px; " src="./assets/ps1 1.png" />
+    <img style="width: 115px; height: 112px; left: 1092px; top: 2803px;" src="./assets/ft2 1.png" />
+      </div>
+      <div style="display: flex; ;" class="text1">
+
+    <h4 style="width: 20vw; height: 20px; left: 227px; top: 2933px;  text-align: center; color: black; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Good Management</h4>
+
+    <h4 style=" width: 20vw; height: 51px; left: 618px; top: 2933px;text-align: center; color: black; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Practice Sessions</h4>
+    <h4 style="width: 20vw; height: 51px; left: 984px; top: 2933px; text-align: center; color: black; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Personal Trainers</h4>
+      </div>
+      <div style="display: flex;" class="text2">
+    <h5 style="width: 400px; height: 36px; left: 191px; top: 2984px;  text-align: center; color: black; font-size: 14px; font-family: Poppins; font-weight: 600; word-wrap: break-word">What hurts today makes you stronger tomorrow</h5>
+    <h5 style="width: 366px; height: 36px; left: 965px; top: 2982px; text-align: center; color: black; font-size: 14px; font-family: Poppins; font-weight: 600; word-wrap: break-word">If it doesn't challenge you, it won't change you</h5>
+    <h5 style="width: 400px; height: 36px; left: 584px; top: 2984px;text-align: center; color: black; font-size: 14px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Motivation is what gets you started.</h5>
+      </div>  
+  </div>
+     
+    </div>
+    
+  
+  
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+<div style="margin-top: 0vh;" class="container-success">
+  <h1 class="success"  >Success Stories</h1>
+  <img class="s2" src="images/james-barr-jYrFcbztIHA-unsplash.jpg"  alt="success"  />
+
+  <img class="s3" src="images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg" alt="success" />
+
+  <img class="s4" src="images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg" alt="success" />
+  
+  <p class="p1" >Working out regularly I lose 
+    some of my extra pounds which 
+    helped in my modelling career. </p>
+  
+
+    <p class="p2" >Yoga and Pilates helped 
+      me get back in shape 
+      and raised my confidence </p>
+
+  <p class="p3" >Personal Trainer diet plan 
+    helpedin increasing 
+    strength and endurance. </p>
+</div>
+
+
+      <div class="swiper">
+        
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                The trainers here customized a plan that balanced my work-life
+                demands, and I've seen remarkable progress in my fitness
+                journey. It's not just a gym; it's my sanctuary for self-care.
+              </p>
+              <h4>Ritik</h4>
+              <h5>Bollywood Celebrity Hero</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+              </div>
+              <p>
+                The trainers' expertise and the gym's commitment to cleanliness
+                during these times have made it a safe haven for me to maintain
+                my health and de-stress.
+              </p>
+              <h4>Silpa</h4>
+              <h5>Bollywood Celebrity Heroine</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-7.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                The variety of classes and the supportive community have kept me
+                motivated. I've shed pounds, gained confidence, and found a new
+                level of energy to inspire my students.
+              </p>
+              <h4>Kolhi</h4>
+              <h5>Cricketer</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="images/pexels-bamboo-ave-18991007.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                This gym's 24/7 access has been a lifesaver. Whether it's a
+                late-night workout or an early morning session, the convenience
+                here is unbeatable.
+              </p>
+              <h4>David & Martinez</h4>
+              <h5>Entrepreneur</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="footer1">
+
+      <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+            </div>
+            <p>
+              Take the first step towards a healthier, stronger you with our
+              unbeatable pricing plans. Let's sweat, achieve, and conquer
+              together!
+            </p>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <div class="footer__links">
+              <a href="#">Business</a>
+              <a href="#">Franchise</a>
+              <a href="#">Partnership</a>
+              <a href="#">Network</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>About Us</h4>
+            <div class="footer__links">
+              <a href="#">Blogs</a>
+              <a href="#">Security</a>
+              <a href="#">Careers</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <div class="footer__links">
+              <a href="#">Contact Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">BMI Calculator</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bar">
+          Copyright © 2023 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+
+    
+
+
+  </body>
+</html>

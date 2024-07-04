@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="index.css" />
+
+  <link rel="stylesheet" href="pricing.css" />
+
+
+
+
+
+    <title>Produt Price</title>
+</head>
+<body>
+
+  <header class="header">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+
+
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="About.html">About</a></li>
+        <li class="link"><a href="Classes.html">Classes</a></li>
+        <li class="link"><a href="Pricing.html">Product pricing</a></li>
+        <li class="link"><button class="btn" onclick="openForm()"  >Join Us</button></li>
+        
+      </ul>
+    </nav>
+    <div class="section__container header__container" id="home">
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+            
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">City</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Nagpur</option>
+                <option>Amravati</option>
+                <option>Indore</option>
+              </select>
+            </div>
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Male
+            </label>
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Female
+            </label>
+
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+
+                
+              </div>
+
+
+              
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          
+
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+
+   
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+    <section class="section__container price__container" id="price">
+
+      <h1 class="heading" >Our Nutrition, Machine & Merchandise</h1>
+     
+
+      <div class="nutrition">
+           <h1 class="head" >  Nutrition & Supplement</h1>
+        <img class="n1" src="images/Whey.jpg" alt="" />
+        <img class="n2" src="images/preworkout.jpg" alt="" />
+        <img class="n3" src="images/Multivitamins.jpg" alt="" />
+
+        <button class="btn1">Whey Protien</button>
+        <button class="btn2">Multivitamins</button>
+        <button class="btn3">Pre Workout</button>
+      </div>
+    
+    
+      <div class="machine">
+      <h1 class="head">Weights & Machine</h1>
+        <img class="n4" src="images/alina-chernysheva-JA2S6sJWleg-unsplash.jpg" alt="" />
+        <img class="n5" src="images/heidi-erickson-CPSjcuuV8E8-unsplash.jpg" alt="" />
+        <img class="n6" src="images/fitnish-media-5zrPlR-5lP0-unsplash.jpg" alt="" />
+
+             <button class="btn1">Treadmill</button>
+        <button class="btn2">Free Weight</button>
+        <button class="btn3">Cable Machine</button>
+
+      </div>
+    
+    
+    
+      <div class="apparel">
+      <h1 class="head" >Apparel & Merchandise</h1>
+        <img class="n7" src="images/pexels-bamboo-ave-18991007.jpg" alt="" />
+        <img class="n8" src="images/dylan-gillis-YJdCZba0TYE-unsplash.jpg" alt="" />
+        <img class="n9" src="images/bruce-mars-WGN6ZEFEZbs-unsplash.jpg" alt="" />
+
+        <button style="margin-top: -115vh;" class="btn1">Running</button>
+        <button style="margin-top: 55vh;" class="btn2">Yoga</button>
+        <button style="margin-top: 51vh;" class="btn3">Zumba</button>
+
+      </div>
+
+
+
+
+
+        <h2 class="section__header">Product Pricing</h2>
+        <p class="section__description">
+          Our pricing plan comes with various membership tiers, each tailored to
+          cater to different preferences and fitness aspirations.
+        </p>
+        <div class="price__grid">
+          <div class="price__card">
+            <div class="price__content">
+              <h4>Basic Plan</h4>
+              <img src="pages/price-1.png" alt="price" />
+              <p>
+                Our Basic Plan is the perfect starting point for individuals
+                looking to kickstart their fitness journey or maintain an active
+                lifestyle.
+              </p>
+              <hr />
+              <h4>Key Features</h4>
+              <p>Smart workout plan</p>
+              <p>At home workouts</p>
+            </div>
+            <button class="btn">Join Now</button>
+          </div>
+          <div class="price__card">
+            <div class="price__content">
+              <h4>Weekly Plan</h4>
+              <img src="pages/price-2.png" alt="price" />
+              <p>
+                Our weekly plan is designed to provide structure and variety to
+                your workouts, ensuring you stay motivated and on track.
+              </p>
+              <hr />
+              <h4>Key Features</h4>
+              <p>PRO Gyms</p>
+              <p>Smart workout plan</p>
+              <p>At home workouts</p>
+            </div>
+            <button class="btn">Join Now</button>
+          </div>
+          <div class="price__card">
+            <div class="price__content">
+              <h4>Monthly Plan</h4>
+              <img src="pages/price-3.png" alt="price" />
+              <p>
+                With this flexible membership, you'll have access to our
+                state-of-the-art gym facilities, expert trainers, and a vibrant
+                fitness community
+              </p>
+              <hr />
+              <h4>Key Features</h4>
+              <p>ELITE Gyms & Classes</p>
+              <p>PRO Gyms</p>
+              <p>Smart workout plan</p>
+              <p>At home workouts</p>
+              <p>Personal Training</p>
+            </div>
+            <button class="btn">Join Now</button>
+          </div>
+        </div>
+      </section>
+  
+      <img class="Service" src="assets/price-3.png" alt="price" />
+
+
+
+      
+      <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+            </div>
+            <p>
+              Take the first step towards a healthier, stronger you with our
+              unbeatable pricing plans. Let's sweat, achieve, and conquer
+              together!
+            </p>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <div class="footer__links">
+              <a href="#">Business</a>
+              <a href="#">Franchise</a>
+              <a href="#">Partnership</a>
+              <a href="#">Network</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>About Us</h4>
+            <div class="footer__links">
+              <a href="#">Blogs</a>
+              <a href="#">Security</a>
+              <a href="#">Careers</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <div class="footer__links">
+              <a href="#">Contact Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">BMI Calculator</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bar">
+          Copyright © 2023 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+      
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+.logo button{
+    width: 10vw;
+    height: 7.5vh;
+}
+
+.dashbord1{
+    left: 47px; top: 45px; 
+    position: absolute; color: black; font-size: 40px; 
+    font-family: Poppins; font-weight: 600;
+     word-wrap: break-word
+}
+.dashbord{
+    width: 100%;
+    height: 18vh;
+    left: 0vw;
+    top: 0vh;
+    position: absolute;
+    background: #FED7BA;
+}
+.product{
+    width: 343px;
+     height: 1241px;
+     left: 0px;
+     top: 166px; 
+    position: absolute; 
+    background:white
+}
+.dashbord h3{
+    left: 5vw; top: 2vh; 
+    position: absolute; color: black; font-size: 40px; 
+    font-family: Poppins; font-weight: 600;
+     word-wrap: break-word
+ 
+}
+.dashbord img{
+    width: 456px;
+     height: 100px; 
+    left: 37vw; 
+    top: 25px; 
+    position: absolute
+  
+}
+
+.product h3{
+    left: 47px; 
+    top: 103px;;
+     position: relative;
+     color: black;
+      font-size: 36px;
+       font-family: Poppins;
+        font-weight: 500; 
+        word-wrap: break-word
+}
+
+.admin{
+    width: 214px;
+     height: 100px;
+      left: 80vw;
+      top: 25px; 
+      position: absolute; 
+      background-color: brown;
+}
+.admin img{
+    width: 75px; height: 75px; 
+    margin-left: -36.7vw;
+    top: 16px; 
+    position: relative; 
+    background: black"
+}
+.admin h3{
+ top: 25px; position: absolute;
+  color: black; font-size: 24px;
+   font-family: Nunito Sans;
+  font-weight: 700;
+   word-wrap: break-word 
+}
+
+.top h3{
+    left: 1vw;
+    top: -3.1vh;
+    position: relative;
+    color: black;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+    background: rgba(210.37, 127.10, 127.10, 0.50);
+    text-align: center;
+ 
+
+}
+.top{
+    width: 81.5%;
+    height: 50px;
+    left: -49px;
+    top: 18vh;
+    position: relative;
+   
+}
+
+.top1{
+    width: 90.5%;
+    height: 50px;
+    left: 396px;
+    position: relative;
+   
+  
+}
+
+body{
+    background-color: #FED7BA;
+}
+.top h4{
+    left: 524px; 
+     position: relative;
+      color: #8B0000; 
+      font-size: 32px; 
+      font-family: Nunito Sans;
+      margin-top: 14vh;
+       font-weight: 600; word-wrap: break-word
+}
+.form-control5{
+    width: 400px;
+    height: 100px;
+    left: 948px;
+    top: 89px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: 1px #8B0000 solid; 
+}
+
+.form-control1{
+    width: 400px;
+    height: 100px;
+    left: 948px;
+    top: 608px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: 1px #8B0000 solid; 
+}
+
+
+.form-select{
+    width: 400px;
+    height: 100px;
+
+    left: 948px;
+    top: 267px;
+     position: absolute; color: #716C6C; 
+     font-size: 24px;
+      font-family: Nunito Sans; 
+     font-style: italic;
+      font-weight: 300;
+      word-wrap: break-word 
+}
+
+
+.form-select1{
+    width: 400px;
+    height: 100px;
+    left: 948px;
+    top: 50vh;
+    position: absolute;
+    color: #716C6C;
+    font-size: 24px;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.form-control{
+    width: 400px;
+    height: 317px;
+    left: 948px;
+    top: 90vh;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: 1px #8B0000 solid;
+}
+.top button{
+    width: 336px;
+    height: 50px;
+    position: absolute;
+    background: rgba(210.37, 127.10, 127.10, 0.50);
+    border: 1px #8B0000 solid;
+    left: 554px;
+    top:130vh ;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.second button{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    background: #84292B;
+    border: 1px black solid;
+    left: 1023px;
+    top: 35.5vh;
+    position: relative;
+    color: white;
+    font-size: 32px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}

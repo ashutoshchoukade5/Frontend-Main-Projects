@@ -1,0 +1,44 @@
+.footer1{
+    margin-top: 190vh;
+}
+
+.main {
+    height: 100%;
+    background-color: bisque;
+}
+
+.categories{
+    margin-top: -265vh;
+    padding-bottom: 153vh;
+}
+
+
+.c1{
+    width: 22vw;
+    margin-top: 41vh;
+    border: none;
+}
+
+.c2{
+    margin-top: -90vh;
+    width: 22vw;
+    margin-left: 25vw;
+    border: none;
+}
+.Stage2 {
+    margin-top: -0vh;
+}
+.btnc1{
+    margin-top: 4vh;
+    margin-left: -55vw;
+    width: 57.5%;
+    color: white;
+    background-color:#84292B ;
+}
+.btnc2{
+    margin-top: -19vh;
+    margin-left: 24.5vw;
+    width: 57.5%;
+    color: white;
+    background-color: #84292B;
+}

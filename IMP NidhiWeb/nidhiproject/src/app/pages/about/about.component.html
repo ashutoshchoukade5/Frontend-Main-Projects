@@ -1,0 +1,43 @@
+<div class="about">
+
+    <img src="../../../assets/image/Rectangle 46.png" alt="">
+    <div  class="ab">
+    <a style="color: white;width: 15vw;height: 6vh;font-weight: 700; font-size:2svw;" class="nav-link active" aria-current="page"  href="">Bank History</a>
+    </div>
+
+    <p>The Bank believes that Customer Delight is the ultimate goal and has a strong belief that customers and all shareholders, wholehearted support, 
+        absolute faith and their patronage coupled with hard work of the staff members has been largely responsible for its noteworthy and appreciable growth. 
+        The Bank is committed to provide banking services with speed, comfort and convenience. The progress allowed by the bank can be attributed to the collective 
+        efforts made by the management and team work of its staff under able guidance of the Board of Directors.
+
+    </p>
+
+
+
+
+
+  <h2>EMI Calculator</h2>
+  <div>
+    <label for="loanAmount">Loan Amount:</label>
+    <input type="number" id="loanAmount" [(ngModel)]="loanAmount">
+  </div>
+  <div>
+    <label for="tenureYears">Tenure (in years):</label>
+    <input type="number" id="tenureYears" [(ngModel)]="tenureYears">
+  </div>
+  <div>
+    <label for="rateOfInterest">Rate of Interest (annual %):</label>
+    <input type="number" id="rateOfInterest" [(ngModel)]="rateOfInterest">
+  </div>
+  <div>
+    <button (click)="calculateEMI()">Calculate EMI</button>
+    <button (click)="reset()">Reset</button>
+  </div>
+  <div *ngIf="emi !== null">
+    <p>Your EMI: {{ emi | currency:'USD':'symbol':'1.2-2' }}</p>
+  </div>
+
+
+
+</div>
+

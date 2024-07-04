@@ -1,0 +1,544 @@
+
+
+
+.container{
+
+    background: red;
+    height: 133px;
+
+}
+
+h1{
+    font-size: 45px;
+
+}
+
+.ig{
+    height: 116px;
+    margin-right: 1001px;
+    margin-top: -115px;
+}
+
+a{
+    margin-left: 451px;
+    font-size: -webkit-xxx-large;
+}
+
+strong{
+    color: cornflowerblue;
+}
+
+.btn{
+    height: 45px;
+    margin-left: 1207px;
+    width: 125px;
+    background: aqua;
+    margin-top: -42px;
+}
+
+.container1{
+    margin-left: 298px;
+    margin-top: -122px;
+
+}
+
+
+form{
+    margin-top: 105px;
+
+
+}
+
+.search-bar {
+    width: 1200px;
+    padding: 8px;
+    border: 1px solid #160101;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 6px 10px 13px rgba(9, 0, 0, 0.1);
+    height: 50px;
+    margin-top: 47px;
+    margin-left: -30px;
+  }
+  
+  
+  .search-button {
+    padding: 24px 16px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 29px;
+    cursor: pointer;
+    box-shadow: 1px 6px 10px 13px rgba(9, 0, 0, 0.1);
+
+  }
+
+
+  .container3{
+    margin-left: 669px;
+    margin-top: 100px;
+  }
+
+
+.ig1{
+    height: 328px;
+    margin-left: -100px;
+    width: 595px;
+    background: aqua;
+    margin-top: 112px;
+}
+
+h2{
+    font-size: 40px;
+    font-style: inherit;
+    text-align: center;
+    width: 30%;
+}
+
+h3{
+    font-size: 29px;
+    font-style: inherit;
+    text-align: center;
+    width: 25%;
+}
+
+h4{
+    font-size: 17px;
+    font-style: italic;
+    width: 40%;
+    text-align: center;
+}
+
+.h11{
+
+
+}
+
+.btn1{
+    height: 46px;
+    margin-left: 809px;
+    width: 125px;
+    background: #f07d2e;
+    margin-top: 59px;
+    box-shadow: 1px 6px 10px 13px rgba(4, 69, 78, 0.1);
+
+}
+
+.ch1{
+    margin-left: 666px;
+    margin-top: 64px;
+    font-size: 35px;
+    width: 426px; 
+}
+
+
+
+.ht1{
+
+    margin-left: 300px;
+    width: 70%;
+
+}
+
+
+
+.container4{
+    margin-left: 139px;
+    margin-right: -198px;
+}
+
+.template{
+
+}
+
+.btn2{
+    height: 69px;
+    width: 78%;
+}
+.a1{
+    margin-left: -32px;
+    font-size: 38px;
+    margin-top: 344px;
+}
+.a2{
+    margin-left: -32px;
+    font-size: 38px;
+    margin-top: 344px;
+}
+
+
+
+.a3{
+
+    margin-left: -32px;
+    font-size: 38px;
+    margin-top: 344px;
+}
+.a4{
+    margin-left: -32px;
+    font-size: 38px;
+    margin-top: 344px;
+}
+
+.a5{
+    margin-left: -32px;
+    font-size: 38px;
+    margin-top: 344px;
+}
+.a6{
+    margin-left: -32px;
+    font-size: 38px;
+    margin-top: 344px;
+}
+
+.btn3{
+
+    height: 85px;
+    width: 78%;
+}
+
+
+.btn4{
+    height: 85px;
+    width: 78%;
+
+}
+
+.btn5{
+    height: 85px;
+    width: 78%;
+
+}
+
+
+.btn6{
+    height: 85px;
+    width: 78%;
+
+}
+
+.btn7{
+    height: 85px;
+    width: 78%;
+
+}
+
+
+
+.tmp{
+    width: 98px;
+    height: 62px;
+    margin-right: 1057px;
+    margin-bottom: -50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:375px) and (max-width:425px){ 
+
+
+    .container{
+
+        background: red;
+        height: 133px;
+    
+    }
+    
+    h1{
+        font-size: 45px;
+    
+    }
+    
+    .ig{
+        height: 116px;
+        margin-right: 1001px;
+        margin-top: -115px;
+    }
+    
+    a{
+        margin-left: 451px;
+        font-size: -webkit-xxx-large;
+    }
+    
+    strong{
+        color: cornflowerblue;
+    }
+    
+    .btn{
+        height: 45px;
+        margin-left: 1207px;
+        width: 125px;
+        background: aqua;
+        margin-top: -42px;
+    }
+    
+    .container1{
+        margin-left: 298px;
+        margin-top: -122px;
+    
+    }
+    
+    
+    form{
+        margin-top: 105px;
+    
+    
+    }
+    
+    .search-bar {
+        width: 1200px;
+        padding: 8px;
+        border: 1px solid #160101;
+        border-radius: 5px;
+        outline: none;
+        box-shadow: 1px 6px 10px 13px rgba(9, 0, 0, 0.1);
+        height: 50px;
+        margin-top: 47px;
+        margin-left: -140px;
+      }
+      
+      
+      .search-button {
+        padding: 24px 16px;
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        border-radius: 29px;
+        cursor: pointer;
+        box-shadow: 1px 6px 10px 13px rgba(9, 0, 0, 0.1);
+    
+      }
+    
+    
+      .container3{
+        margin-left: 593px;
+      }
+    
+    .ht1{
+    
+    
+    }
+    
+    .ig1{
+        height: 328px;
+        margin-left: -112px;
+        width: 595px;
+        background: aqua;
+        margin-top: 112px;
+    }
+    
+    h2{
+        font-size: 40px;
+        font-style: inherit;
+        text-align: center;
+        width: 30%;
+    }
+    
+    h3{
+        font-size: 29px;
+        font-style: inherit;
+        text-align: center;
+        width: 25%;
+    }
+    
+    h4{
+        font-size: 17px;
+        font-style: italic;
+        width: 40%;
+        text-align: center;
+    }
+    
+    .h11{
+    
+    
+    }
+    
+    .btn1{
+        height: 46px;
+        margin-left: 712px;
+        width: 125px;
+        background: #f07d2e;
+        margin-top: 59px;
+        box-shadow: 1px 6px 10px 13px rgba(4, 69, 78, 0.1);
+    
+    }
+    
+    .ch1{
+        margin-left: 591px;
+        margin-top: 64px;
+        font-size: 35px;
+        width: 426px; 
+    }
+    
+    
+    
+    .ht1{
+    
+        margin-left: 300px;
+        width: 70%;
+    
+    }
+    
+    
+    
+    .container4{
+        margin-left: 139px;
+        margin-right: -198px;
+    }
+    
+    .template{
+    
+    }
+    
+    .btn2{
+        height: 69px;
+        width: 78%;
+    }
+    .a1{
+        margin-left: -32px;
+        font-size: 38px;
+        margin-top: 344px;
+    }
+    .a2{
+        margin-left: -32px;
+        font-size: 38px;
+        margin-top: 344px;
+    }
+    
+    
+    
+    .a3{
+    
+        margin-left: -32px;
+        font-size: 38px;
+        margin-top: 344px;
+    }
+    .a4{
+        margin-left: -32px;
+        font-size: 38px;
+        margin-top: 344px;
+    }
+    
+    .a5{
+        margin-left: -32px;
+        font-size: 38px;
+        margin-top: 344px;
+    }
+    .a6{
+        margin-left: -32px;
+        font-size: 38px;
+        margin-top: 344px;
+    }
+    
+    .btn3{
+    
+        height: 85px;
+        width: 78%;
+    }
+    
+    
+    .btn4{
+        height: 85px;
+        width: 78%;
+    
+    }
+    
+    .btn5{
+        height: 85px;
+        width: 78%;
+    
+    }
+    
+    
+    .btn6{
+        height: 85px;
+        width: 78%;
+    
+    }
+    
+    .btn7{
+        height: 85px;
+        width: 78%;
+    
+    }
+    
+    
+    
+    .tmp{
+        width: 98px;
+        height: 62px;
+        margin-right: 1057px;
+        margin-bottom: -50px;
+    
+    
+    }
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

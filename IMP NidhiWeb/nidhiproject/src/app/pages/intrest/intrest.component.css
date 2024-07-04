@@ -1,0 +1,49 @@
+
+.about img{
+    width: 100%;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }  
+  .right1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+      }
+
+      .left1 {
+        width: 70%;
+        margin-left: 32vw;
+        margin-top: -0vh;
+        height: 100vh;
+          }
+        
+          table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        
+.ab a{
+    
+  position: absolute;
+  bottom: 20px;
+  background-color: #A12C5F;
+  color: white;
+
+}

@@ -1,0 +1,68 @@
+.landing img{
+    width: 100%;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+.content p{
+    margin-top: 29vh;
+    width: 40%;
+}
+.content button{
+margin-top: 47vh;
+width: 17vw;
+    height: 10vh;
+    margin-left: -35vw;
+}
+.second
+{
+    width: 100%;
+
+}
+
+.up{
+    display: flex;
+    justify-content: space-around;
+}
+.third{
+    background: #97144DE5;
+    height: 100vh;
+}
+.up h3{
+    color: white;
+}
+.third button{
+    background: #5C5A59;
+    color: white;
+    width: 121px;
+    height: 44px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.third button:hover{
+    background:#DF7C08 ;
+}
+
+
+.images{
+    display: flex;
+    
+}
+.images img{
+    width: 21%;
+    margin-top: 10vh;
+}
+
+.button1{
+    display: flex;
+}
+.button2{
+    display: flex;
+}

@@ -1,0 +1,76 @@
+#creditCard{
+    width: 34vw;
+    height: 5vh;
+    margin-top: 3vh;
+}
+
+
+.#creditCard:hover{
+color: aqua;
+
+}
+#date{
+    width: 14vw;
+    height: 5vh;
+}
+#cvv{
+    height: 5vh;
+}
+#submit{
+    margin-top: 5vh;
+    margin-left: 6vw;
+    height: 5vh;
+    width: 6vw;
+    color: azure;
+    background: rgba(135.29, 9.77, 9.77, 0.72);
+    border-radius: 15px;
+
+}
+.footer1{
+    margin-top: 42vh;
+}
+
+#upiId{
+    width: 34vw;
+    height: 5vh;  
+    margin-top: 4vh; 
+}
+#submit1{
+    margin-top: 5vh;
+    margin-left: 0vw;
+    height: 5vh;
+    width: 8vw;
+    color: azure;
+    background: rgba(135.29, 9.77, 9.77, 0.72);
+    border-radius: 15px;
+}
+.footer1{
+    margin-top: 0vh;
+}
+.footer2{
+    margin-top: 9vh;
+}
+
+.contaner img{
+margin-left: 15vw;
+}
+
+.contaner1 button{
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+
+.tag5 img{
+    margin-left: 10vw;
+}
+.tag5 h1{
+margin-left: 5vw
+}
+
+.tag5 h3{
+    margin-left: 13vw;
+}
+
+.tag5 h4{
+   margin-left: 16vw; 
+}

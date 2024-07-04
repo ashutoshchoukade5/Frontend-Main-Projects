@@ -1,0 +1,399 @@
+.heading{
+    margin-top: -80px;
+    margin-left: -19px;
+    background-color: aqua;
+    width: 103%;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    background-image: url(images/back2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 331px;
+    font-family: cursive;
+    font-size: xxx-large;
+    font-variant: all-petite-caps; 
+    color: #fff;
+}
+.head{
+    margin-left: 454px;
+    color: tomato;
+    border: crimson outset;
+    width: 309px;
+    background-color: black;
+    
+
+}
+
+.nutrition{
+    background-color: #0f172a;
+    margin-left: 2px;
+    height: 409px;
+    margin-top: 112px;
+
+
+
+}
+.machine{
+    background-color: rgb(12, 46, 75);
+    margin-left: 2px;
+    height: 484px;
+}
+.apparel{
+    background-color: rgb(129, 137, 8);
+    margin-left: 2px;
+    height: 486px;
+}
+
+.n1{
+    width: 178px;
+    margin-left: 150px;
+    margin-top: 56px;
+    border: groove;
+    transition: background-color 0.3s ease;
+}
+
+.n2{
+    width: 178px;
+    margin-left: 500px;
+    margin-top: -175px;
+    border: groove;
+}
+.n3{
+    width: 178px;
+    margin-left: 843px;
+    margin-top: -176px;
+    border: groove;
+}
+
+.n4{
+    width: 178px;
+    margin-left: 150px;
+    margin-top: 56px;
+    border: groove;
+}
+.n5{
+    width: 178px;
+    margin-left: 500px;
+    margin-top: -237px;
+    height: 237px;
+    border: groove;
+}
+.n6{
+    width: 178px;
+    margin-left: 843px;
+    margin-top: -235px;
+    height: 242px;
+    border: groove;
+
+}
+
+.n7{
+    width: 178px;
+    margin-left: 150px;
+    margin-top: 56px;
+    border: groove;
+    outline: auto;
+}
+.n8{
+    width: 178px;
+    margin-left: 500px;
+    margin-top: -241px;
+    height: 239px;
+    border: groove;
+    outline: auto;
+}
+.n9{
+    width: 178px;
+    margin-left: 843px;
+    margin-top: -241px;
+    height: 239px;
+    border: groove;
+    outline: auto;
+}
+
+
+
+.btn1{
+    margin-left: 159px;
+    margin-top: 59px;
+    background-color: chartreuse;
+    width: 140px;
+    height: 44px;
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: var(--white);
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+ .btn2{
+    margin-left: 211px;
+    background-color: chartreuse;
+    width: 137px;
+    height: 44px;
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+ }
+
+ .btn3{
+    margin-left: 871px;
+    margin-top: -57px;
+    background-color: chartreuse;
+    width: 144px;
+    height: 44px;
+    padding: -1.25rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+
+}
+
+
+
+
+
+.hover-effect {
+    /* Your regular button styles */
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    /* Transition for a smooth effect (optional but recommended) */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .hover-effect:hover {
+    background-color: #2980b9;
+  }
+
+
+
+  .n1:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 7, 7);
+  }
+
+  .n1:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+  .n2:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+  .n3:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+  .n4:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+  .n5:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+
+  .n6:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+
+  .n7:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+  .n8:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+
+  .n9:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+  }
+
+  .btn1:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 7, 7);
+  }
+
+  .btn2:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 7, 7);
+  }
+  .btn3:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 7, 7);
+  }
+
+  @media (width < 426px) {
+
+
+  body{
+  }
+.header{
+  
+}
+
+nav{
+  width: -20%;
+}
+
+.nav__links{
+  width: 20%;
+}
+
+.nav__menu__btn{
+  width: 10%;
+}
+.nav__header{
+width: 100vw;
+}
+
+#myForm{
+  margin-left: 78vw;
+    position: relative;
+    width: 65%;
+    height: 100%;
+    
+}
+.section__container{
+
+  position: relative;
+}
+.nutrition{
+
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 200vh;
+}
+.machine{
+  height: 200vh;
+  width: 100vw;
+}
+.apparel{
+  height: 200vh;
+  position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100vw;
+margin-left: -3.4vw;
+}
+.heading{
+  margin-left: -2vw;
+}
+.head{
+  margin-left: -4vw;
+}
+
+
+.n1{
+  margin-left: -2vw;
+  }
+  .n2{
+  margin-left: -3vw;
+  margin-top: 20vh;
+  
+  }
+  .n3{
+  margin-left: -6vw;
+  margin-top: 20vh;
+  }
+  .btn1{
+  margin-top: -95vh;
+  margin-left: -5vw;
+  }
+  .btn2{
+  margin-top: 40vh;
+  margin-left: -6vw;
+  }
+  .btn3{
+  margin-left: -6vw;
+  margin-top: 42vh;
+  }
+  
+
+  .n4{
+    margin-left: 19vw;
+  }
+  .n5{
+    margin-left: 19vw;
+    margin-top: 15vh;
+    width: 40vw;
+  }
+  
+  .n6{
+    margin-left: 19vw;
+    margin-top: 15vh;
+    width: 40vw;
+    }
+    .btnc4{
+      margin-top: -105vh;
+      margin-left: -5vw;
+      }
+      .btnc5{
+      margin-top: 45vh;
+      margin-left: -6vw;
+      }
+      .btnc6{
+      margin-left: -6vw;
+      margin-top: 48vh;
+      }
+      .footer__bar{
+        width: 100vw;
+        margin-left: -0vw;
+      }
+  
+
+      .n7{
+        margin-left: -2vw;
+        }
+        .n8{
+        margin-left: -3vw;
+        margin-top: 20vh;
+        
+        }
+        .n9{
+        margin-left: -6vw;
+        margin-top: 20vh;
+        }
+
+
+
+  }
+

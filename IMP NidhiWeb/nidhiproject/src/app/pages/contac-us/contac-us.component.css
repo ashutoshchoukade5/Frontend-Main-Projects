@@ -1,0 +1,17 @@
+.about img{
+    width: 100%;
+}
+.right{
+    width: 50%;
+    
+}
+
+
+.ab a{
+    
+    position: absolute;
+    bottom: 20px;
+    background-color: #A12C5F;
+    color: white;
+
+}

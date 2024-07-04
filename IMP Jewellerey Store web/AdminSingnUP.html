@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./AdminSignUP.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div style="overflow: hidden;" class="hero">
+<div style="overflow: hidden;" class="form-box">
+    <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="signup()">Sign UP</button>
+        
+        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+    </div>
+
+
+    <form id="singnup" class="input-group">
+
+
+      
+              <img style="width: 400px; height: 100%; left: 0px; top: 0px; position: absolute" src="./profile/Rectangle 161.png" />
+              <h4> Sign up & get Rs. 500 off* coupon code for your first purchase!</h4>
+  
+               <input style="width: 30vw; height: 46px;border: none; left: 25.5vw; top: 170px; position: absolute;  color: #8B0000; font-size: 36px; font-family: Nunito Sans; font-weight: 400;background: #ffd0d0; word-wrap: break-word" type="text" id="name" name="name" placeholder="Name" required>
+               <input style="width: 30vw; height: 46px;border: none; left: 25.5vw; top: 230px; position: absolute; color: #8B0000; font-size: 36px; font-family: Nunito Sans; font-weight: 400;background: #ffd0d0; word-wrap: break-word" type="email" id="email" name="email" placeholder="Emial Address" required>
+                 <input  style="margin-left: 50vw; top: 5.9vh; position: relative; color: white; font-size: 24px; font-family: Nunito Sans; font-weight: 700; word-wrap: break-word;width: 100px;background: #ffd0d0; height: 40px; background: #D27F7F" type="submit" value="Verify">
+                  <input style="width: 30vw; height: 47px;border: none; left: 25.5vw; top: 290px; position: absolute;  color: #8B0000; font-size: 36px; font-family: Nunito Sans; font-weight: 400;background: #ffd0d0; word-wrap: break-word"  type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number" required>
+                 <input  style="margin-left: 50vw; top: 7.9vh; position: relative; color: white; font-size: 24px; font-family: Nunito Sans; font-weight: 700; word-wrap: break-word;width: 100px;background: #ffd0d0; height: 40px; background: #D27F7F" type="submit" value="Verify">
+                <input  style="width: 30vw; height: 46px;border: none; left: 25.5vw; top: 355px; position: absolute; color: #8B0000; font-size: 36px; font-family: Nunito Sans; font-weight: 400;background: #ffd0d0; word-wrap: break-word" type="password" id="password" name="password" placeholder="Password" required>
+ 
+                <input  style="width: 30vw; height: 46px;border: none; left: 25.5vw; top: 415px; position: absolute; color: #8B0000; font-size: 36px; font-family: Nunito Sans; font-weight: 400;background: #ffd0d0; word-wrap: break-word" type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+
+
+                  <input style="margin-top: 25vh;margin-left: 28vw;" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1"> I agree to the Terms of use and Privacy Statement</label>
+                <button>Sign Up</button>
+
+                 <h3  class="bottom" style="text-align: center; margin-top: 15vh; margin-left: 24vw;"><span style="color: black; font-size: 24px; font-family: Nunito Sans; font-weight: 300; word-wrap: break-word">Already have an account?    </span><span style="color: #8B0000; font-size: 24px; font-family: Nunito Sans; font-weight: 300; text-decoration: underline; word-wrap: break-word">Login now</span></h3>
+
+
+    </form>
+    <form  id="login" class="input-group">
+        <img style="width: 400px; height: 100%; left: 0px; top: 0px; position: absolute" src="./profile/Rectangle 161.png" />
+        <h4> Sign up & get Rs. 500 off* coupon code for your first purchase!</h4>
+        
+
+        <input style="width: 30vw; height: 46px;border: none; left: 25.5vw; top: 230px; position: absolute; color: #8B0000; font-size: 36px; font-family: Nunito Sans; font-weight: 400;background: #ffd0d0; word-wrap: break-word" type="email1" id="email" name="email1" placeholder="Emial Address/Phone Number" required>
+
+      
+
+        <input  style="width: 30vw; height: 46px;border: none; left: 25.5vw; top: 300px; position: absolute; color: #8B0000; font-size: 36px; font-family: Nunito Sans; font-weight: 400;background: #ffd0d0; word-wrap: break-word" type="password" id="password" name="password" placeholder="Password" required>
+    
+            <label style="top: 19vh; font-size: x-large; margin-left: 33vw; position: relative;" class="form-check-label" for="defaultCheck1">
+                Forgot Password?
+            </label>
+
+            <button style="margin-top: -14vh;" >Login In</button>
+
+
+
+              <button style="top: 520px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Nunito Sans; font-weight: 900; word-wrap: break-word;position: absolute; background: #D27F7F; border: 1px #8B0000 solid">
+                    <img src="./photos/Vector.png" alt="">Login With Google</button>
+               
+                    <h3  class="bottom" style="text-align: center; margin-top: 45vh; margin-left: 24vw;"><span style="color: black; font-size: 24px; font-family: Nunito Sans; font-weight: 300; word-wrap: break-word">New User?    </span><span style="color: #8B0000; font-size: 24px; font-family: Nunito Sans; font-weight: 300; text-decoration: underline; word-wrap: break-word">Sign UP Now</span></h3>
+    
+
+
+
+      
+    </form>
+
+</div>
+</div>
+
+<script>
+    var x = document.getElementById("singnup");
+    var y = document.getElementById("login");
+    var z = document.getElementById("btn");
+
+    function login(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px"
+    }
+
+    function signup(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px"
+    }
+
+
+</script>
+    
+</body>
+</html>

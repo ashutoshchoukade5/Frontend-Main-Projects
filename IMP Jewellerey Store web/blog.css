@@ -1,0 +1,36 @@
+.main{
+    height: 100%; 
+    background-color:#FED7BA;
+}
+.second{
+    height: 50vh;
+    width: 48%; 
+}
+.blogimg{
+    text-align: center;
+}
+span{
+    
+
+}
+.blog{
+    width: 100%;
+    height: 50%;
+}
+.blog img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer1 {
+    margin-left: -0vw;
+    width: 100%;
+    margin-top: 170vh;
+}
+.images img{
+margin-left: 13vw;
+}
+
+.footer1{
+    margin-top: 121vh;
+}

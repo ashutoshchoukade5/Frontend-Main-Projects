@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jewellerey Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="file.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <style>
+      .mySlides {display:none;}
+      </style>
+
+<style>
+  #slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .mySlides {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    animation: slideUpDown 1s ease-in-out;
+  }
+
+  @keyframes slideUpDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<style>
+  /* Container to hold the image */
+  .content-6 {
+      overflow: hidden;
+ 
+  }
+
+  /* Image with initial position */
+  .b1 {
+      transition: transform 1s ease-out;
+  }
+
+  /* Apply the transition to move from right to left */
+  .b1.move-right {
+    
+      transform: translate(30%)
+  }
+</style>
+
+  <style>
+  .b2 {
+      transition: transform 1s ease-out;
+  }
+
+  /* Apply the transition to move from right to left */
+  .b2.move-right {
+      transform: translateX(30%)
+  }
+</style>
+
+<style>
+  .left1 {
+      transition: transform 1s ease-out;
+  }
+
+  /* Apply the transition to move from right to left */
+  .left1.move-right {
+      transform: rotateX(360deg)
+  }
+</style>
+</head>
+<body>
+    
+<div class="main">
+
+   <div class="nav">
+    <div class="nav-page">
+      
+        <i class="ri-menu-fill"></i>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-fill"></i></span>
+        </div>
+      
+
+        <ul class="nav__links" id="nav-links">
+          <a href="file.html"><li>Home</li></a>
+          <div class="dropdown">
+          <li>Shop</li>
+          
+          <div class="dropdown-content">
+            <a href="crystal.html">Shop 1</a>
+            <a href="carats.html">Shop 2</a>
+          
+          </div>
+        </div>
+          <a style="-webkit-transition: all 500ms ease;" href="blog.html"><li>Blog</li></a>
+  
+        </ul>
+    </div>
+
+
+
+    <img class="tag" src="./Jewellery Ecommerce images/crystals--carats-high-resolution-logo-transparent.png" alt="">
+      <div class="logo">
+      <i class="ri-empathize-fill"></i>
+      <i class="ri-user-add-fill"></i>
+      <i class="ri-shopping-cart-fill"></i>
+      </div>
+   </div>
+    
+
+
+
+
+
+   <div class="content">
+     <div class="first">
+        <img class="mySlides w3-animate-top"  src="./Jewellery Ecommerce images/ardy-arjun-FApOxeT2NEQ-unsplash.jpg" alt="">
+     </div>
+     <div class="second">
+        <img  class="mySlides1 w3-animate-fading"  src="./Jewellery Ecommerce images/sabrianna-Y_bxfTa_iUA-unsplash.jpg" alt="">
+        <img  class="mySlides2 w3-animate-fading"   src="./Jewellery Ecommerce images/gc3.jpg" alt="">
+
+     </div>
+    
+        <h2>Browse By Category</h2>
+        <h5>Discover elegance at your fingertips</h5>
+        
+   </div>
+
+
+    <div class="content-second">
+           <h4 class="hh1">Crystals</h4>
+           <h4 class="hh2">Carats</h4>
+
+         <div class="right">
+            <img class="r1" src="./Jewellery Ecommerce images/choong-deng-xiang-WR98S28oRLM-unsplash.jpg" alt="">
+            <img class="r2" src="./Jewellery Ecommerce images/diamond-1199183_640.jpg" alt="">
+            <div class="horizontal-line2">
+              <h5><a href="crystal.html">GEMSTONE</a></h5>
+              <h5><a href="crystal.html">DIAMOND</a></h5>
+            
+            </div>
+         </div>
+         
+        
+         <div class="left">
+            <img class="r3" src="./Jewellery Ecommerce images/gold-296115_640.jpg" alt="">
+            <img class="r4" src="./Jewellery Ecommerce images/platinum.jpg" alt="">
+            <div class="horizontal-line3">
+              <h5><a href="carats.html">GOLD</a></h5>
+              <h5><a href="carats.html">PLATINUM</a></h5>
+            
+            </div>
+
+         </div>
+      </div>
+
+      <div class="content-third">
+         <h2>Best Sellers</h2> 
+         <h5>Timeless Eligance meets contemporary Style</h5>
+          <div class="line">
+            <img src="./profile/Line-Design 3.png" alt="">
+          </div>
+
+          <div class="js1">
+            <img src="./Jewellery Ecommerce images/dot-bg.png " alt="bg" class="class__bg" />
+         <img class="a1" src="./Jewellery Ecommerce images/coin.jpg" alt="">
+
+         <img src="./Jewellery Ecommerce images/dot-bg.png" alt="bg" class="class__bg1" />
+         <img class="a2" src="./Jewellery Ecommerce images/new-earrings.jpg" alt="">
+
+         <img  src="./Jewellery Ecommerce images/dot-bg.png" alt="bg" class="class__bg2" />
+         <img class="a3" src="./Jewellery Ecommerce images/bracelet.jpg" alt="">
+
+         <img src="./Jewellery Ecommerce images/dot-bg.png" alt="bg" class="class__bg3" />
+         <img class="a4" src="./Jewellery Ecommerce images/new-bangles.webp" alt="">
+    
+
+          <div class="horizontal-line">
+            <h5><a href="product-1.html">Coin</a></h5>
+            <h5>Ear Ring</h5>
+            <h5>Barcelet</h5>
+            <h5><a href="product-2.html"href="#ba">Bangels</a></h5>
+            
+          </div>
+          
+        
+         </div>
+
+         <div class="js2">
+          <img src="./Jewellery Ecommerce images/dot-bg.png " alt="bg" class="class__bg4" />
+         <img class="a5" src="./Jewellery Ecommerce images/new-necklace.webp" alt="">
+
+         <img src="./Jewellery Ecommerce images/dot-bg.png " alt="bg" class="class__bg5" />
+         <img class="a6" src="./Jewellery Ecommerce images/new-nose-pins.webp" alt="">
+
+         <img src="./Jewellery Ecommerce images/dot-bg.png " alt="bg" class="class__bg6" />
+         <img class="a7" src="./Jewellery Ecommerce images/new-finger-rings.webp" alt="">
+
+         <img src="./Jewellery Ecommerce images/dot-bg.png " alt="bg" class="class__bg7" />
+         <img class="a8" src="./Jewellery Ecommerce images/new-pendant-sets.jpg" alt="">
+         </div>
+
+         <div class="horizontal-line1">
+          <h5>Necklace</h5>
+          <h5>Nose Pins</h5>
+          <h5>Rings</h5>
+          <h5>Pendent</h5>
+          
+        </div>
+        
+
+
+
+        </div>
+
+
+      <div class="content-4">
+         <h2>Bridal Jewellery Special</h2>
+         <h5>Be the Bride you always dreamt of</h5>
+         <div class="line">
+          <img src="./profile/Line-Design 3.png" alt="">
+        </div>
+        <div class="bridal">
+         <img src="./Jewellery Ecommerce images/8_Mararashtrian.png" alt="" >
+         <img src="./Jewellery Ecommerce images/12_gujarati.png" alt="">
+         <img src="./Jewellery Ecommerce images/show-stopper.png" alt="">
+         <h4 class="c1" >Enchanting</h4>
+         <h4 class="c2" >Trendsette</h4>
+         <h4 class="c3" >Dazzling</h4>
+  
+        </div>
+
+      </div>
+
+
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="./Jewellery Ecommerce images/gc3.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="./Jewellery Ecommerce images/Rivaah-Bride.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="./Jewellery Ecommerce images/anniversary.jpg" class="d-block w-100" alt="...">
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+
+
+
+          <div class="content-5">
+             <h2>Shop By Gender</h2>
+             <h5>First-class jewelry for first-class Men, Women & Children</h5>
+             
+             <a href="men.html"><img  src="./Jewellery Ecommerce images/men.jpg" alt=""></a>
+             <a href="women.html"><img src="./Jewellery Ecommerce images/women.webp" alt=""></a>
+              <a href="kids.html"><img src="./Jewellery Ecommerce images/kids.png" alt=""></a>
+             <h4 class="m1"><a href="men.html">Men</a></h4>
+             <h4 class="m2"><a href="women.html">Women</a></h4>
+             <h4 class="m3"><a href="kids.html">Kids</a></h4>
+           </div>
+
+
+
+
+       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+            <video autoplay muted class="backVidio1" width="" height="" >
+              <source class="v1" src="./vecteezy_diamond-rings-made-of-platinum-gold-decorated-with-many_7098016.mov" type="video/mp4">
+           </div>
+           <div class="carousel-item">
+            <video autoplay muted class="backVidio1" width="" height="" >
+              <source class="v1" src="./vecteezy_diamond-with-glass-box-on-black-background-3d-render-animation_9265752.mp4" type="video/mp4">
+           </div>
+           <div class="carousel-item">
+            <video autoplay muted class="backVidio1" width="" height="" >
+              <source class="v1" src="./vecteezy_dubai-uae-2022-various-golden-luxury-arabic-style_16191144.mov" type="video/mp4">
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+        
+       </div>
+       <div class="text1">
+        <h3>Recommendation For You</h3>
+         <h4>Style meets the plus of fashion</h4>
+         <div class="line">
+          <img src="./profile/Line-Design 3.png" alt="">
+        </div>
+      </div>
+
+
+
+
+
+
+
+        <div class="content-6">
+          
+     
+          <div class="right1">
+            <a href="occassional.html"><img class="b1" src="./Jewellery Ecommerce images/Birthday.jpg" alt=""></a>
+              <a href="occassional.html"><img class="b2" src="./Jewellery Ecommerce images/anniversary.jpg" alt=""></a>
+
+          </div>
+          <div class="left1">
+            <a href="occassional.html"><img src="./Jewellery Ecommerce images/Personalized.jpg" alt=""></a>
+            </div>
+
+
+         </div>
+
+
+
+
+
+         
+    <div class="footer1">
+
+      <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#"><img src="./Jewellery Ecommerce images/crystals--carats-high-resolution-logo-transparent.png" alt="logo" />Maharashtra Jewellerey</a>
+            </div>
+            <p>
+              These are an excellent choice for vintage-inspired jewelry and simple, traditional designs because they suggest a slightly vintage, candlelit glamour.
+            </p>
+        
+          </div>
+          <div class="footer__col">
+            <h4>Useful Links</h4>
+            <div class="footer__links">
+              <a href="#">Privacy Policy </a>
+              <a href="#"> Terms of Use</a>
+              <a href="#">Payment Issues</a>
+              <a href="#"> Net Banking</a>
+              <a href="">Custom Jewellery</a>
+            </div>
+          </div>
+          <div class="footer__col1">
+            <h4>Help & Info</h4>
+            <div class="footer__links">
+              <a href="#">About Crystals & Carats</a>
+              <a href="#"> Careers</a>
+              <a href="#"> Blogs</a>
+              <a href="">FAQs></a>
+            </div>
+          </div>
+          <div class="footer__col2">
+            <h4>Contact us</h4>
+            <div class="footer__links">
+              <a href="#">1809-908-5647</a>
+              <a href="#">Get in Touch</a>
+              <a href="#">Chat With Us</a>
+           
+            </div>
+  
+
+            <div class="footer__col3">
+              <h4>Adress</h4>
+              <div class="footer__links">
+              <p>Shop No. 3,4,5,6, Ground Floor Shriniwasa 63 Complex, Rajkamal Chowk, Badnera Rd, Amravati, Maharashtra 444601 <br>
+             LOcated in : Shriniwasa Mall
+              </p>
+             
+              </div>
+          </div>
+            <div class="map">
+              <h3>Location</h3><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.9427103645294!2d77.74888744191321!3d20.927936130383202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4aef85995cb%3A0xf34a09848d598561!2sWaman%20Hari%20Pethe!5e0!3m2!1sen!2sin!4v1704860730075!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer__socials">
+          <h4>Follow US : </h4>
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+        <div class="footer__bar">
+          Copyright © 2023 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);    
+  }
+  </script>
+
+<script>
+  var myIndex = 0;
+  carousel1();
+  
+  function carousel1() {
+    var i;
+    var x = document.getElementsByClassName("mySlides1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel1, 5000);    
+  }
+  </script>
+
+<script>
+  var myIndex = 0;
+  carousel1();
+  
+  function carousel1() {
+    var i;
+    var x = document.getElementsByClassName("mySlides2");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel1, 9000);    
+  }
+  </script>
+
+
+
+<script>
+function delay() {
+    return new Promise((resolve) => setTimeout(resolve, 3000));
+}
+async function transition() {
+    let elements = document.getElementsByClassName('mySlide3');
+    elements = Array.from(elements);
+    for (let index = 0; index < elements.length; index++) {
+        elements[index].classList.add(`visible${index}`);
+        await delay();
+    }
+}
+transition();
+
+</script>
+
+
+<script>
+
+  setTimeout(function () {
+      document.querySelector('.b1').classList.add('move-right');
+  }, 2000); // 2000 milliseconds = 2 seconds
+</script>
+
+</script>
+
+
+<script>
+
+  setTimeout(function () {
+      document.querySelector('.b2').classList.add('move-right');
+  }, 2000); // 2000 milliseconds = 2 seconds
+</script>
+
+<script>
+
+  setTimeout(function () {
+      document.querySelector('.left1').classList.add('move-right');
+  }, 2000); // 2000 milliseconds = 2 seconds
+</script>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="file.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html> 

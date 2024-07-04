@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="index.css" />
+
+
+
+    <title>About Document</title>
+</head>
+<body>
+    
+
+  <header class="header">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+
+
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="About.html">About</a></li>
+        <li class="link"><a href="Classes.html">Classes</a></li>
+        <li class="link"><a href="Pricing.html">Product pricing</a></li>
+        <li class="link"><button class="btn" onclick="openForm()"  >Join Us</button></li>
+        
+      </ul>
+    </nav>
+    <div class="section__container header__container" id="home">
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+            
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">City</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Nagpur</option>
+                <option>Amravati</option>
+                <option>Indore</option>
+              </select>
+            </div>
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Male
+            </label>
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Female
+            </label>
+
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+
+                
+              </div>
+
+
+              
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          
+
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+
+
+    </div>
+  </header>
+
+
+
+  <div class="backVidio">
+    <video autoplay muted class="backVidio1" width="" height="" >
+      <source src="images/istockphoto-1410441629-640_adpp_is.mp4" type="video/mp4">
+  
+   </div>
+   
+
+
+  <section class="section__container about__container" id="about">
+   
+  
+   
+   
+    <div class="about__image">
+      <img class="about__bg" src="assets/logo5.jpg" alt="bg" />
+      <img src="images/pexels-viktorya-sergeeva-11494765.jpg" alt="about" />
+    </div>
+    <div class="about__content">
+      <h2 class="section__header">Our Story</h2>
+      <p class="section__description">
+        Led by our team of expert and motivational instructors, "The Class You
+        Will Get Here" is a high-energy, results-driven session that combines
+        a perfect blend of cardio, strength training, and functional
+        exercises.
+      </p>
+      <div class="about__grid">
+        <div class="about__card">
+          <span><i class="ri-open-arm-line"></i></span>
+          <div>
+            <h4>Open Door Policy</h4>
+            <p>
+              We believe in providing unrestricted access to all individuals,
+              regardless of their fitness level, age, or background.
+            </p>
+          </div>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-shield-cross-line"></i></span>
+          <div>
+            <h4>Fully Insured</h4>
+            <p>
+              Your peace of mind is our top priority, and our commitment to
+              your safety extends to every aspect of your fitness journey.
+            </p>
+          </div>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-p2p-line"></i></span>
+          <div>
+            <h4>Personal Trainer</h4>
+            <p>
+              With personalized workout plans tailored to your needs, we will
+              ensure that you get the most out of your gym experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+        </div>
+        <p>
+          Take the first step towards a healthier, stronger you with our
+          unbeatable pricing plans. Let's sweat, achieve, and conquer
+          together!
+        </p>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <div class="footer__links">
+          <a href="#">Business</a>
+          <a href="#">Franchise</a>
+          <a href="#">Partnership</a>
+          <a href="#">Network</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <div class="footer__links">
+          <a href="#">Blogs</a>
+          <a href="#">Security</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <div class="footer__links">
+          <a href="#">Contact Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">BMI Calculator</a>
+          <div class="map">
+            <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.7563261228574!2d77.74459807499677!3d20.88186969280801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a52cf3db0cc7%3A0x68088c517ec9dc77!2sSipna%20College%20Of%20Engineering%20And%20Technology!5e0!3m2!1sen!2sin!4v1701925199870!5m2!1sen!2sin" >
+            </iframe>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+    <div class="footer__bar">
+      Copyright © 2023 Web Design Mastery. All rights reserved.
+    </div>
+
+
+
+    
+  </footer>
+  
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+</html>

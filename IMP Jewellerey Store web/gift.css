@@ -1,0 +1,30 @@
+.main{
+    background-color:#FED7BA ;
+    }
+.photos{
+ 
+    height: 100%;
+    width: 100%;
+   
+   
+}
+.photos img{
+    margin-left: 12vw;
+}
+.photos button{
+    margin-left: 12vw;
+}
+
+
+.card1{
+    height: 44%;
+    margin-top: 29vh;
+    width: 100%;
+}
+.card1 img{
+    width: 100%;
+}
+
+.footer1{
+    margin-top: 16vh;
+}

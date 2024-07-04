@@ -1,0 +1,54 @@
+.categeory{
+    width: 368px;
+    height: 1825px;
+    left: 0px;
+    top: 101px;
+    position: absolute;
+    background: white;
+    padding-bottom: 219vh;
+}
+.main{
+    background-color: #FED7BA;
+}
+
+
+.rating h2{
+    left: 5px; 
+    top: 1336px; 
+    position: absolute; color: black;
+     font-size: 40px; font-family: Poppins;
+      font-weight: 500; 
+      word-wrap: break-word
+}
+.rating h4{
+    left: 8px;
+     top: 1408px; position: 
+     absolute; color: black;
+      font-size: 28px;
+       font-family: Poppins;
+       font-weight: 500; word-wrap: break-word;
+}
+
+.categeory1 a {
+left: 14px; position: absolute; color: black; font-size: 32px; font-family: Poppins; font-weight: 500; word-wrap: break-word"
+}
+
+.photos img{
+    width: 200px;
+    position: absolute;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.slide h3{
+    position: absolute; 
+    color: black; font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word;
+   
+}
+
+.footer1{
+    margin-top: 130vh;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="pricing.css" />
+  <link rel="stylesheet" href="classes.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+  <header class="header">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+
+
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="About.html">About</a></li>
+        <li class="link"><a href="Classes.html">Classes</a></li>
+        <li class="link"><a href="Pricing.html">Product pricing</a></li>
+        <li class="link"><button class="btn" onclick="openForm()"  >Join Us</button></li>
+        
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Login</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+              
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">City</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Mumbai</option>
+                  <option>Pune</option>
+                  <option>Nagpur</option>
+                  <option>Amravati</option>
+                  <option>Indore</option>
+                </select>
+              </div>
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Male
+              </label>
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Female
+              </label>
+
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+
+                  
+                </div>
+
+
+                
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            
+
+        
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+
+
+      
+      </div>
+  </header>
+
+
+
+
+
+    <section class="section__container class__container" id="class">
+        
+     
+    
+
+      <div class="class1">
+     
+           <h1 class="head" > Our Classes</h1>
+        <img class="c1" src="images/couple-training-together-gym (1).jpg" alt="" />
+        <img class="c2" src="images/dylan-gillis-YJdCZba0TYE-unsplash.jpg" alt="" />
+        <img class="c3" src="images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg" alt="" />
+
+        <button class="btnc1">Power Excello</button>
+        <button class="btnc2">Mixed-Level Excell</button>
+        <button class="btnc3">Beginner Level</button>
+      </div>
+    
+    
+      <div class="patners">
+      <h1 class="head">Our Training Partners</h1>
+        <img class="n4" src="images/alina-chernysheva-JA2S6sJWleg-unsplash.jpg" alt="" />
+        <img class="n5" src="images/heidi-erickson-CPSjcuuV8E8-unsplash.jpg" alt="" />
+        <img class="n6" src="images/fitnish-media-5zrPlR-5lP0-unsplash.jpg" alt="" />
+
+             <button class="btnc4">Treadmill</button>
+        <button class="btnc5">Free Weight</button>
+        <button class="btnc6">Cable Machine</button>
+
+      </div>
+    
+    
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/scott-webb-Vn39uEkX00s-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pexels-taryn-elliott-4099238.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      </div>
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <h2 class="section__header1">Our Module</h2>
+        <p class="section__description">
+          Discover a diverse range of exhilarating classes at our gym designed to
+          cater to all fitness levels and interests. Whether you're a seasoned
+          athlete or just starting your fitness journey, our classes offer
+          something for everyone.
+        </p>
+        <div class="class__grid">
+          
+          <div class="class__card">
+            <img src="pages/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="pages/class-1.jpg" alt="class" />
+            <div class="class__content">
+              <h4>Strength Training</h4>
+              <p>Resistance Training</p>
+            </div>
+          </div>
+          <div class="class__card">
+            <img src="pages/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="pages/class-2.jpg" alt="class" />
+            <div class="class__content">
+              <h4>Flexibility & Mobility</h4>
+              <p>Yoga & Pilates</p>
+            </div>
+          </div>
+          <div class="class__card">
+            <img src="pages/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="pages/class-3.jpg" alt="class" />
+            <div class="class__content">
+              <h4>HIIT</h4>
+              <p>Circuit Training</p>
+            </div>
+          </div>
+          <div class="class__card">
+            <img src="pages/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="pages/class-4.jpg" alt="class" />
+            <div class="class__content">
+              <h4>Group Fitness</h4>
+              <p>Zumba or Dance</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section__container trainer__container" id="trainer">
+        <h2 class="section__header">Our Trainers</h2>
+        <p class="section__description">
+          Our trainers are more than just experts in exercise; they are passionate
+          about helping you achieve your health and fitness goals. Our trainers
+          are equipped to tailor workout programs to meet your unique needs.
+        </p>
+        <div class="trainer__grid">
+          <div class="trainer__card">
+            <img src="pages/trainer-1.jpg" alt="trainer" />
+          </div>
+          <div class="trainer__card">
+            <div class="trainer__content">
+              <h4>Ashu</h4>
+              <h5>Strength and Conditioning</h5>
+              <hr />
+              <p>
+                With a background in competitive sports, he's dedicated to helping
+                you reach your peak physical performance.
+              </p>
+              <div class="trainer__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-google-fill"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="trainer__card">
+            <img src="pages/trainer-2.jpg" alt="trainer" />
+          </div>
+          <div class="trainer__card">
+            <div class="trainer__content">
+              <h4>Rohit</h4>
+              <h5>HIIT and Functional</h5>
+              <hr />
+              <p>
+                His energetic and dynamic workouts are designed to push your
+                limits, boost metabolism, and torch calories.
+              </p>
+              <div class="trainer__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-google-fill"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="trainer__card">
+            <img src="pages/trainer-3.jpg" alt="trainer" />
+          </div>
+          <div class="trainer__card">
+            <div class="trainer__content">
+              <h4>Anushka</h4>
+              <h5>Yoga and Mindfulness</h5>
+              <hr />
+              <p>
+                Anushka's sessions are about physical postures and also about
+                cultivating inner peace and mindfulness.
+              </p>
+              <div class="trainer__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-google-fill"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      
+      <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#"><img src="assets/logo5.jpg" alt="logo" />Power</a>
+            </div>
+            <p>
+              Take the first step towards a healthier, stronger you with our
+              unbeatable pricing plans. Let's sweat, achieve, and conquer
+              together!
+            </p>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <div class="footer__links">
+              <a href="#">Business</a>
+              <a href="#">Franchise</a>
+              <a href="#">Partnership</a>
+              <a href="#">Network</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>About Us</h4>
+            <div class="footer__links">
+              <a href="#">Blogs</a>
+              <a href="#">Security</a>
+              <a href="#">Careers</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <div class="footer__links">
+              <a href="#">Contact Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">BMI Calculator</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bar">
+          Copyright © 2023 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+      
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

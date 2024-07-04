@@ -1,0 +1,218 @@
+.main{
+    background-color:#FED7BA;
+}
+
+.part1{
+    height: 100vh;
+    background-color: aliceblue;
+    width: 30%;
+    padding-bottom: 129vh;
+
+}
+.part2{
+    height: 100vh;
+    background-color: aliceblue;
+    width: 66%;
+    margin-left: 34vw;
+    margin-top: -129vh;
+    height: 129vh;
+}
+
+.first{
+    width: 60%;
+    height: 11vh;
+    margin-left: 4.5vw;
+     background: #FED7BA;
+    
+}
+.first img{
+     width: 64%; height: 100%;
+     margin-left: -3vw; 
+}
+.first h5{
+    margin-top: -11vh;
+    margin-left: 7vw;
+    color: black;
+    font-size: 24px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+.first h3{
+    color: #8B0000;
+    margin-left: 6vw;
+    font-size: 26px;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    word-wrap: break-word 
+}
+.name{
+    margin-top: -108vh;
+}
+.name h3{
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+.name p{
+    margin-left: 7vw;
+}
+.logos{
+    margin-top: -3vh;
+    height: 110vh; 
+}
+
+.rowg-3{
+    padding-top: 20vh;
+    margin-left: 3vw;
+    width: 75%;
+}
+.col
+{
+width: 37%;
+
+}
+
+#female1{
+    margin-left: 8vw;
+}
+
+#mobileNumber{
+width: 40vw;
+}
+#inputEmail4{
+width: 40vw;
+}
+
+.col-md-6{
+    margin-top: 8vh;
+}
+
+
+.mobile{
+    margin-top: 8vh;
+}
+
+.form-control{
+    outline: red groove;
+}
+#mobileNumber{
+    outline: red groove;
+}
+
+.gender{
+    margin-top: 8vh;
+}
+.col2{
+width: 37%;
+margin-top: -4vh;
+    width: 37%;
+    margin-left: 23vw;
+    outline: red groove;
+}
+
+
+
+.box{
+    width: 85%; height: 20%; background: white; border: 1px #8B0000 solid;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+.box button{
+    margin-top: -1vh;
+}
+
+
+  .container1{
+    margin-left: -20vw;
+  }
+
+  .form-check{
+    margin-top: 9vh;
+    margin-left: 2vw;
+    width: 59vw;
+    font: unset;
+}
+
+    .second h4{
+        width: 50%;
+        color: black;
+    font-size: 32px;
+    font-family: Nunito Sans;
+    font-weight: 200;
+    word-wrap: break-word;
+        margin-left: 35vw;
+    }
+
+
+    .bottom{
+        margin-top: 19vh;
+        margin-left: 15vw;
+    }
+    .form-check-input{
+        height: 2vh;
+    }
+
+  .bottom1{
+    margin-top: 87vh;
+    margin-left: 10vw;
+  }
+
+  .bottom2{
+    margin-top: 70vh;
+    margin-left: 10vw;
+  }
+
+  .col-12{
+    margin-top: 5vh;
+  }
+
+
+
+
+
+
+
+  .section h2{
+
+  }
+
+  .section button{
+ margin-top: 5vh;height: 5vh;width: 12vw;
+ margin-left: 3vw;
+    background: rgba(210.37, 127.10, 127.10, 0.50); border-radius: 10px; border: 1px #8B0000 solid
+  }
+
+.part2 p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 1vw;
+  background: unset;
+}
+
+.box h5{
+margin-top: 3vh;
+}
+
+.box p{
+margin-top: 5vh;
+}
+
+.box button{
+    margin-top: 2vh;
+}
+
+.input{
+    margin-left: 20vw;
+    margin-top: -7vh;
+}
+
+form{
+    margin-left: 5vw;
+    margin-top: 5vh; 
+}
+
+.name p{
+    background: unset;
+}

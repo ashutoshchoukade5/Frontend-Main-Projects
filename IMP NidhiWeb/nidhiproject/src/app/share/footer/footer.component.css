@@ -1,0 +1,31 @@
+.item{
+    display: flex;
+    justify-content: space-evenly; 
+    background: #D9D9D9;
+    height: 10vh;
+}
+
+.item a{
+    margin-top: 3.5vh;
+}
+.f2{
+    background: #97144DE5;
+    color: aliceblue;
+}
+.f3{
+    margin-left: 80vw;
+    margin-top: -21vh;
+}
+.f3 img{
+    width: 17vh;
+}
+.f4{
+    background-color: white;
+    text-align: center;
+    
+ 
+     outline: rgb(220, 214, 214) groove;
+}
+.f4 p{
+    padding: 5vh;
+}

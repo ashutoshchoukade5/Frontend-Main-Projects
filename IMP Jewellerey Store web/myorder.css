@@ -1,0 +1,30 @@
+.footer1{
+   margin-top: 55vh;
+}
+
+.order{
+    background-color: aliceblue;
+    width: 25%;
+    height: 124vh;
+}
+
+.order1{
+margin-left: 6vw;
+}
+.order2{
+margin-left: 6vw;
+}
+.image{
+
+}
+.image1{
+
+}
+.myorder1{
+    display: grid;
+    width: 60%;
+    background-color: azure;
+    margin-left: 39vw;
+    margin-top: -124vh;
+    height: 124vh;
+}

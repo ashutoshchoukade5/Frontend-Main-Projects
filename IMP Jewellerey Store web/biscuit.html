@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="file.css" />
+    <link rel="stylesheet" href="crystal.css" />
+    <link rel="stylesheet" href="men.css">
+    <link rel="stylesheet" href="coin.css">
+    <link rel="stylesheet" href="baracelets.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+
+    <style>
+      
+      .navigation {
+        display: flex;
+    margin-top: 204vh;
+    margin-left: -31vw;
+      }
+
+     
+      .navigation h3 {
+        color: white;
+          font-size: 30px;
+          font-family: Nunito Sans;
+          font-weight: 300;
+          word-wrap: break-word;
+          height: 5vh;
+          
+          background-color: sienna;
+        
+      }
+      .button {
+        padding: 8px 16px;
+        margin: 0 5px;
+        border: 1px solid #000;
+        border: none;
+        text-decoration: none;
+        color: #000;
+        margin-left: 3vw;
+      }
+  
+      .button:hover {
+        background-color: #f0f0f0;
+      }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgb(255, 221, 179);"  class="main">
+        <div class="nav">
+            <div class="nav-page">
+              <i class="ri-menu-fill"></i>
+              <div class="nav__menu__btn" id="menu-btn">
+                <span><i class="ri-menu-fill"></i></span>
+              </div>
+            
+      
+              <ul class="nav__links" id="nav-links">
+                <a href="file.html"><li>Home</li></a>
+                <div class="dropdown">
+                <li>Shop</li>
+                
+                <div class="dropdown-content">
+                  <a href="crystal.html">Shop 1</a>
+                  <a href="carats.html">Shop 2</a>
+                
+                </div>
+              </div>
+                <a  href="blog.html"><li>Blog</li></a>
+        
+              </ul>
+            </div>
+            <img class="tag" src="./Jewellery Ecommerce images/crystals--carats-high-resolution-logo-transparent.png" alt="">
+              <div class="logo">
+              <i class="ri-empathize-fill"></i>
+              <i class="ri-user-add-fill"></i>
+              <i class="ri-shopping-cart-fill"></i>
+              </div>
+           </div>
+           <div class="categeory">
+            <h1 style="left: 9px; top: 15vh; position: absolute; color: black; font-size: 48px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Filters</h1>
+
+          <div class="price">
+             <label style="left: 9px; top: 245px; position: absolute; color: black; font-size: 36px; font-family: Poppins; font-weight: 500; word-wrap: break-word" for="minPrice">Price:</label>
+             <input style="width: 150px; height: 50px; left: 9px; top: 300px; position: absolute; background: #EEEEEE; border-radius: 5px; border: 1px #8B0000 solid" type="number" id="minPriceInput" min="0" max="10000" value="1000">
+             <label  style="left: 169px; top: 310px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word" for="maxPrice">To</label>
+             <input style="width: 150px; height: 50px; left: 208px; top: 299px; position: absolute; background: #EEEEEE; border-radius: 5px; border: 1px #8B0000 solid" type="number" id="maxPriceInput" min="0" max="10000" value="10000">
+        
+            <input style="width: 349px; height: 0px; left: 9px; top: 397px; position: absolute; border: 5px #8B0000 solid;color: #8B0000;" type="range" id="minPrice" min="0" max="10000" value="1000">
+             <input style="width: 349px; height: 0px; left: 9px; top: 397px; position: absolute; border: 5px #8B0000 solid;"  type="range" id="maxPrice" min="0" max="10000" value="100000">
+             <span style="left: 9px; top: 420px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word" id="minValue">1000</span>
+             <span style="left: 287px; top: 420px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word" id="maxValue">100000</span>
+
+          </div>
+
+         
+
+
+
+
+         
+
+          <div class="categeory1">
+              <div style="left: 9px; top: 507px; position: absolute; color: black; font-size: 48px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Theme</div>
+               <a style="top: 596px;" href="">Unnamed</a> <br>
+               <a   style="top: 644px;" href="">Tanishq</a><br>
+               <a  style="top: 692px;"  href="">BRPL</a> <br>
+               <a  style="top: 740px;"  href="">Embossed</a>
+         
+            <input style="width: 30px; height: 30px; left: 308px; top: 596px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+            <input style="width: 30px; height: 30px; left: 308px; top: 644px; position: absolute; background: #D9D9D9; border: 1px black solid"  type="checkbox" id="myCheckbox2" name="myCheckbox">
+            <input style="width: 30px; height: 30px; left: 308px; top: 692px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+            <input style="width: 30px; height: 30px; left: 308px; top: 740px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+          </div>
+
+
+           <div style="height: 50vh;position: relative;margin-top: -5vh;" class="gender"> 
+              <h4 style="left: 9px; top: 830px; position: absolute; color: black; font-size: 48px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Weight</h4>
+              <a style="left: 9px; top: 902px; position: absolute; color: black; font-size: 32px; font-family: Poppins; font-weight: 500; word-wrap: break-word" href="">1 Gram<br/>2 Gram<br/>5 Gram</br>10 Gram <br>20 gram <br>50 Gram </a>
+              
+              <input style="width: 30px; height: 30px; left: 300px; top: 907px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+              <input  style="width: 30px; height: 30px; left: 300px; top: 955px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+              <input style="width: 30px; height: 30px; left: 300px; top: 1003px; position: absolute; background: #D9D9D9; border: 1px black solid"  type="checkbox" id="myCheckbox2" name="myCheckbox">
+              <input style="width: 30px; height: 30px; left: 300px; top: 1050px; position: absolute; background: #D9D9D9; border: 1px black solid"  type="checkbox" id="myCheckbox2" name="myCheckbox">
+           
+          </div>
+
+
+
+
+          <div style="margin-top: -35vh;position: relative;" class="discount">
+              <div style="left: 5px; top: 1096px; position: absolute; color: black; font-size: 40px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Discount</div>
+              <a style="left: 8px; top: 1168px; position: absolute; color: black; font-size: 28px; font-family: Poppins; font-weight: 500; word-wrap: break-word" href="">10% or more<br/>20% or more<br/>30% or more</a>
+              
+              <input  style="width: 30px; height: 30px; left: 299px; top: 1174px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox"> 
+              <input  style="width: 30px; height: 30px; left: 299px; top: 1217px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+              <input style="width: 30px; height: 30px; left: 299px; top: 1260px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+          </div>
+
+
+          <div style="margin-top: -5vh;position: relative;" class="rating">
+              <h4 >3   <strong style="margin-left: 20px;"> & Above</strong> <br/>4    <strong style="margin-left: 20px;"  >& Above</strong><br/>5</h4>
+              <h2>Customer Rating</h2>
+              <input style="width: 30px; height: 30px; left: 299px; top: 1414px; position: absolute; background: #D9D9D9; border: 1px black solid;" type="checkbox" id="myCheckbox" name="myCheckbox">
+              <input  style="width: 30px; height: 30px; left: 299px; top: 1457px; position: absolute; background: #D9D9D9; border: 1px black solid;" type="checkbox" id="myCheckbox1" name="myCheckbox1">
+            
+              <input  style="width: 30px; height: 30px; left: 299px; top: 1500px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox" name="myCheckbox"2>
+
+                <img style="width: 23.22px; height: 22.22px; left: 28px; top: 1417px; position: absolute; " src="./addcart/Vector.png" alt="">
+                <img style="width: 23.22px; height: 22.22px; left: 28px; top: 1457px; position: absolute;" src="./addcart/Vector.png" alt="">
+                <img style="width: 23.22px; height: 22.22px; left: 28px; top: 1500px; position: absolute;" src="./addcart/Vector.png" alt="">
+
+          </div>
+
+          
+          <div style="margin-top: 110vh;position: relative;" class="categeory1">
+            <div style="left: 9px; top: 507px; position: absolute; color: black; font-size: 48px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Purity</div>
+             <a style="top: 596px;" href="">24k Gold</a> <br>
+             <a   style="top: 644px;" href="">22k Gold</a><br>
+             <a  style="top: 692px;"  href="">20k Gold</a> <br>
+             <a  style="top: 740px;"  href="">18k Gold</a>
+       
+          <input style="width: 30px; height: 30px; left: 308px; top: 596px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+          <input style="width: 30px; height: 30px; left: 308px; top: 644px; position: absolute; background: #D9D9D9; border: 1px black solid"  type="checkbox" id="myCheckbox2" name="myCheckbox">
+          <input style="width: 30px; height: 30px; left: 308px; top: 692px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+          <input style="width: 30px; height: 30px; left: 308px; top: 740px; position: absolute; background: #D9D9D9; border: 1px black solid" type="checkbox" id="myCheckbox2" name="myCheckbox">
+        </div>
+       
+         </div>
+
+      
+            <div style="width: 25px; height: 25px; left: 585.34px; top: 2323.34px; position: absolute; background: rgba(0, 0, 0, 0)"></div>
+           
+            <img style="width: 200px; height: 250px; left: 400px; top: 205px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 14.png" />
+            <div style="width: 200px; height: 77px; left: 400px; top: 564px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 450px; top: 496px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 473px; top: 532px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+            <img style="width: 200px; height: 250px; left: 666px; top: 205px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 15.png" />
+            <div style="width: 200px; height: 77px; left: 666px; top: 564px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 716px; top: 496px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 739px; top: 532px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+            <img style="width: 200px; height: 250px; left: 937px; top: 205px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 16.png" />
+            <div style="width: 200px; height: 77px; left: 937px; top: 564px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 987px; top: 496px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 1010px; top: 532px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+            <img style="width: 200px; height: 250px; left: 1205px; top: 205px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 17.png" />
+            <div style="width: 200px; height: 77px; left: 1205px; top: 564px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 1255px; top: 496px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 1278px; top: 532px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+            <div style="left: 400px; top: 152px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Shop> Products</div>
+            <div style="left: 400px; top: 152px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Shop> Products> Biscuit</div>
+            <div style="left: 1272px; top: 152px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Sort By</div>
+
+            <img style="left: 400px; top: 157vh; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word;"  src="./coin/600105ZAARAS00_1 18.png" alt="">
+            <div style="width: 200px; height: 77px; left: 400px; top: 1380px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 450px; top: 1312px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 473px; top: 1348px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+
+            <img style="left: 35.5vw; top: 157vh; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word" src="./coin/600105ZAARAS00_1 19.png" alt="">
+            <div style="width: 200px; height: 77px; left: 666px; top: 1380px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 716px; top: 1312px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 739px; top: 1348px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+
+            <img  style="left: 50.4vw; top: 157vh; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word" src="./coin/600105ZAARAS00_1 20.png" alt="">   
+            <div style="width: 200px; height: 77px; left: 937px; top: 1380px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 987px; top: 1312px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 1010px; top: 1348px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+
+            <img  style="left: 65vw; top: 157vh; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word" src="./coin/600105ZAARAS00_1 21.png" alt="">
+            <div style="width: 200px; height: 77px; left: 1205px; top: 1380px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 1255px; top: 1312px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 1278px; top: 1348px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+           
+            <img style="width: 200px; height: 250px; left: 400px; top: 1021px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 22.png" />
+            <div style="width: 200px; height: 77px; left: 403px; top: 1803px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 453px; top: 1735px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 476px; top: 1771px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+           
+            <img style="width: 200px; height: 250px; left: 666px; top: 1021px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 23.png" />
+            <div style="width: 200px; height: 77px; left: 669px; top: 1803px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 719px; top: 1735px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 742px; top: 1771px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+            
+            <img style="width: 200px; height: 250px; left: 937px; top: 1021px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 24.png" />
+            <div style="width: 200px; height: 77px; left: 940px; top: 1803px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 990px; top: 1735px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 1013px; top: 1771px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+
+            <img style="width: 200px; height: 250px; left: 1205px; top: 1021px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 25.png" />
+            <div style="width: 200px; height: 77px; left: 1208px; top: 1803px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 1258px; top: 1735px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 1281px; top: 1771px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+
+            <img style="width: 200px; height: 250px; left: 400px; top: 613px; position: absolute; border-radius: 10px" src="./coin/600105ZAARAS00_1 26.png" />
+            <img style="width: 200px; height: 250px; left: 669px; top: 613px; position: absolute; border-radius: 10px" src="./coin/bracelet 2.png" />
+            <img style="width: 200px; height: 250px; left: 938px; top: 613px; position: absolute; border-radius: 10px" src="./coin/new-bangles 3.png" />
+            <img style="width: 200px; height: 250px; left: 1207px; top: 613px; position: absolute; border-radius: 10px" src="./coin/new-earrings 2.png" />
+            <div style="width: 200px; height: 77px; left: 400px; top: 972px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 450px; top: 904px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 7500</div>
+            <div style="left: 473px; top: 940px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">30% off</div>
+            <div style="width: 200px; height: 77px; left: 669px; top: 972px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 719px; top: 904px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 5467</div>
+            <div style="left: 741px; top: 936px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">25% off</div>
+            <div style="width: 200px; height: 73px; left: 938px; top: 972px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 1009px; top: 944px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">45% off</div>
+            <div style="left: 988px; top: 904px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 8700</div>
+            <div style="width: 200px; height: 73px; left: 1207px; top: 976px; position: absolute; background: #D9D9D9; box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25)"></div>
+            <div style="left: 1278px; top: 948px; position: absolute; color: black; font-size: 16px; font-family: Poppins; font-weight: 500; word-wrap: break-word">45% off</div>
+            <div style="left: 1257px; top: 908px; position: absolute; color: black; font-size: 24px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Rs. 27800</div>
+            <div style="width: 30px; height: 15px; left: 1356px; top: 162px; position: absolute; background: black"></div>
+         
+
+
+
+                  
+       <div class="navigation">
+        <h3 style="margin-top: -8vh; margin-left: 80vw;" >Scroll to Top</h3>
+     
+        <a style="margin-left: -10vw;"  href="#" class="button">1</a>
+        <a href="#" class="button">2</a>
+        <a href="#" class="button">3</a>
+     
+        <a href="#" class="button">Next &gt;</a>
+      </div>
+        </div>
+
+    
+
+
+
+
+        <div class="footer1">
+
+          <footer class="footer">
+            <div class="section__container footer__container">
+              <div class="footer__col">
+                <div class="footer__logo">
+                  <a href="#"><img src="./Jewellery Ecommerce images/crystals--carats-high-resolution-logo-transparent.png" alt="logo" />Maharashtra Jewellerey</a>
+                </div>
+              
+              </div>
+              <div class="footer__col">
+                <h4>Useful Links</h4>
+                <div class="footer__links">
+                  <a href="#">Privacy Policy </a>
+                  <a href="#"> Terms of Use</a>
+                  <a href="#">Payment Issues</a>
+                  <a href="#"> Net Banking</a>
+                  <a href="">Custom Jewellery</a>
+                </div>
+              </div>
+              <div class="footer__col1">
+                <h4>Help & Info</h4>
+                <div class="footer__links">
+                  <a href="#">About Crystals & Carats</a>
+                  <a href="#"> Careers</a>
+                  <a href="#"> Blogs</a>
+                  <a href="">FAQs></a>
+                </div>
+              </div>
+              <div class="footer__col2">
+                <h4>Contact us</h4>
+                <div class="footer__links">
+                  <a href="#">1809-908-5647</a>
+                  <a href="#">Get in Touch</a>
+                  <a href="#">Chat With Us</a>
+               
+                </div>
+      
+    
+                <div class="footer__col3">
+                  <h4>Adress</h4>
+                  <div class="footer__links">
+                  <p>Shop No. 3,4,5,6, Ground Floor Shriniwasa 63 Complex, Rajkamal Chowk, Badnera Rd, Amravati, Maharashtra 444601 <br>
+                 LOcated in : Shriniwasa Mall
+                  </p>
+                 
+                  </div>
+              </div>
+                <div class="map">
+                  <h3>Location</h3><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.9427103645294!2d77.74888744191321!3d20.927936130383202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4aef85995cb%3A0xf34a09848d598561!2sWaman%20Hari%20Pethe!5e0!3m2!1sen!2sin!4v1704860730075!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="footer__socials">
+              <h4>Follow US : </h4>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+            <div class="footer__bar">
+              Copyright © 2023 Web Design Mastery. All rights reserved.
+            </div>
+          </footer>
+        </div>
+      
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

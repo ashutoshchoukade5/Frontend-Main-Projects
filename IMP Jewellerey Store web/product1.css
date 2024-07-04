@@ -1,0 +1,61 @@
+.main {
+    height: 100%;
+    background-color: rgb(255, 221, 179);
+}
+.c1{
+    margin-top: -40vh;
+    margin-left: -14vw;
+    width: 9vw;
+    height: 22vh;
+}
+
+.c2{
+    margin-top: -40vh;
+    margin-left: 8vw;
+    width: 9vw;
+    height: 22vh;
+}
+.c3{
+    margin-top: -40vh;
+    margin-left: 8vw;
+    width: 9vw;
+    height: 22vh;
+}
+.tag1{
+    background-color: aliceblue;
+    height: 9vh;
+    margin-left: 14vw;
+    text-align: center;
+    width: 100vw;
+    margin-top: 0vh;
+}
+
+.btnc1{
+    margin-left: -59.5vw;
+    margin-top: 65vh;
+    width: 6vw;
+}
+.btnc2{
+    margin-left: 22.5vh;
+    width: 7vw;
+}
+.btnc3{
+    margin-left: 10.7vw;
+    width: 7vw;
+}
+.Stage1{
+    margin-top: -33vh;
+}
+.Stage2{
+    margin-top: -33vh;
+}
+.Stage3{
+    margin-top: -33vh;
+}
+.categories{
+    margin-top: -179vh;
+padding-bottom: 63vh;
+}
+.footer1{
+    margin-top: 100vh;
+}

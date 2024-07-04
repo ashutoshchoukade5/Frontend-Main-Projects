@@ -1,0 +1,23 @@
+.top{
+    display: flex;
+    justify-content: space-around;
+    background-color:#97144DE5 ;
+    color: white;
+}
+
+.navbar-nav{
+    display: block;
+}
+
+.nav-item
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-item a{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3vw;
+    margin-top: 8vh;
+}
